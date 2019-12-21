@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+<head>
+<title> Calculator </title>
+<link rel="stylesheet" href="./calculator1.css">
+</head>
+<body>
+<div class="calci">
+	<form name="cal">
+		<div class="name"> Standard Calculator 
+		
+		
+		</div>
+		<!--<input type="text" name="" value="Calculator" id="app_name">-->
+		<input type="text" name="display">
+		<br>
+		<br>
+		
+		<input type="button" value="MC" onclick="cal.display.value+='MC'" disabled>
+		<input type="button" value="MR" onclick="cal.display.value+='MR'" disabled>
+		<input type="button" value="MS" onclick="cal.display.value+='MS'" disabled>
+		<input type="button" value="M+" onclick="cal.display.value+='M+'" disabled>
+		<input type="button" value="M-" onclick="cal.display.value+='M-'" disabled>
+		<br>
+		<br> 
+		
+		
+		<input type="button" value="<--" onclick="cal.display.value+='<--'" disabled>
+		<input type="button" value="CE" onclick="cal.display.value+='CE'" disabled>
+		<input type="button" value="C" onclick="cal.display.value=''" id="del">
+		<input type="button" value="+" onclick="cal.display.value+='+'">
+		<input type="button" value="sqrt" onclick="cal.display.value+='sqrt'" disabled>
+		<br>
+		<br>
+		
+		
+		<input type="button" value="7" onclick="cal.display.value+='7'">
+		<input type="button" value="8" onclick="cal.display.value+='8'">
+		<input type="button" value="9" onclick="cal.display.value+='9'">
+		<input type="button" value="-" onclick="cal.display.value+='-'">
+		<input type="button" value="%" onclick="cal.display.value+='%'">
+		<br><br>
+		
+		
+		<input type="button" value="4" onclick="cal.display.value+='4'">
+		<input type="button" value="5" onclick="cal.display.value+='5'">
+		<input type="button" value="6" onclick="cal.display.value+='6'">
+		<input type="button" value="*" onclick="cal.display.value+='*'">
+		<input type="button" value="1/x" onclick="cal.display.value+='1/x'" disabled>
+		<br><br>
+		
+		
+		<input type="button" value="1" onclick="cal.display.value+='1'">
+		<input type="button" value="2" onclick="cal.display.value+='2'">
+		<input type="button" value="3" onclick="cal.display.value+='3'">
+		<input type="button" value="/" onclick="cal.display.value+='/'">
+		<input type="button" value="=" onclick="cal.display.value=eval(cal.display.value)">
+		<br><br>
+		
+		
+		
+		<!--<input type="button" value="0" onclick="cal.display.value+='0'"> -->
+		<input type="button" value="0" onclick="cal.display.value+='0'" button style="width:183px">
+		<input type="button" value="." onclick="cal.display.value+='.'">
+		<!--<input type="button" value="+" onclick="cal.display.value+='+'"> -->
+		<input type="button" value="(" onclick="cal.display.value+='('">
+		<input type="button" value=")" onclick="cal.display.value+=')'">
+		<br><br>
+		
+		
+		
+	</form>
+</div>
+</body>
+</html>
+
+
+
+<!--body{
+		background-image:linear-gradient(to right)
+}
+
+
+.calci{
+		
+		height:auto;
+		width: 400px;
+		margin:0;
+		padding:0;
+		box-shadow:0 0 10px 1px grey;
+		
+		position:left;
+		top:10px;
+		left:50%;
+		transform:translate(-50%);
+		width:326px;
+		background:#696969;
+		padding:5px;
+		box-shadow:1px 1px 3px black;
+} -->
